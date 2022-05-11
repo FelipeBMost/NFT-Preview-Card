@@ -99,6 +99,7 @@ h1 {
     margin-bottom: 10px;
     cursor: pointer;
     max-width: 225px;
+    font-size: 1.5em;
 }
 
 h1:hover, h1:active{
