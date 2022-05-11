@@ -1,0 +1,138 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    background: hsl(217, 54%, 11%);
+    padding-top: 75px;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    background: hsl(216, 50%, 16%);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.nft {
+    position: relative;
+}
+
+.nft img {
+    width: 100%;
+    height: auto;
+    max-width: 375px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+}
+
+.overlay {
+    cursor: pointer;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0; height: 100%; width: 100%;
+    border-radius: 10px;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(0, 255, 255, 0.5);
+}
+
+.eye-icon img {
+    width: 50px;
+}
+
+.eye-icon {
+    position: absolute;
+    top:130px;
+    left:130px;
+}
+
+.nft:hover .overlay {
+    opacity: 1;
+
+}
+
+.icon-eth {
+    width: 14px;
+    margin-top: 2px;
+}
+
+.icon-clock {
+    width: 20px;
+    margin-top: 3px;
+}
+
+.avatar {
+    width: 35px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-right: 18px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 375px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.credit {
+    margin-top: 5px;
+    justify-content: flex-start;
+}
+
+h2 {
+    color: white;
+    margin-bottom: 10px;
+    cursor: pointer;
+    max-width: 225px;
+}
+
+h2:hover, h2:active{
+    color: hsl(178, 100%, 50%);
+}
+
+.align {
+    margin-top: 16px;
+}
+
+.soft-blue {
+    color: hsl(215, 51%, 70%);
+}
+
+.white {
+    color: white;
+    cursor: pointer;
+}
+
+span:hover, span:active{
+    color: hsl(178, 100%, 50%);
+}
+
+.icon-clock, .icon-eth {
+    margin-right: 10px;
+    float: left;
+}
+
+.card-border-bottom {
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.card-border-bottom p:first-child{
+    color: hsl(178, 100%, 50%);
+}
+
+.attribution { margin-top: 15px; font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
