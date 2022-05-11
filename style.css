@@ -94,14 +94,14 @@ a {
     justify-content: flex-start;
 }
 
-h2 {
+h1 {
     color: white;
     margin-bottom: 10px;
     cursor: pointer;
     max-width: 225px;
 }
 
-h2:hover, h2:active{
+h1:hover, h1:active{
     color: hsl(178, 100%, 50%);
 }
 
